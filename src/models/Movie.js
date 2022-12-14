@@ -11,7 +11,7 @@ const movieSchema = new Schema({
   },
   likes: {
     type: Number,
-    required: true
+    required: false,
   },
   image: {
     type: String,
